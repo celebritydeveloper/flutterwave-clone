@@ -18,3 +18,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.brand-container{
+  position:relative;
+  width:100%;
+  overflow-y: hidden;
+}
+.brands{
+  position:absolute;
+	top: 0; 
+  animation: scroll 20s linear 3s infinite;
+}
+@keyframes scroll {
+	100% { top: -100%; }
+}

@@ -5,6 +5,7 @@ import PaymentTypes from '../components/PaymentTypes';
 import Cards from '../components/Cards';
 import styles from '../styles/Home.module.css'
 import Security from '../components/Security';
+import Brands from '../components/Brands';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <PaymentTypes />
         <Cards />
         <Security />
+        <Brands />
       </main>
     </div>
   );
