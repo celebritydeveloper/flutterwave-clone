@@ -8,7 +8,7 @@ const PaymentTypes = () => {
         <section className="bg-[#f4f6f8] px-[4rem] py-[6.5rem]">
             <h2 className="text-[#0f1c70] text-center text-[2rem] font-semibold mb-[4rem]">Create seamless payment <br></br> experiences for your customers.</h2>
             <div className="grid grid-cols-2 gap-12">
-                <Image src={pos} className="rounded-md" />
+                <Image src={pos} className="rounded-md" alt="POS" />
                 <div className="justify-self-center pl-12">
                     <h3 className="font-semibold text-[2.6rem] mb-5 pr-10">Accept payments anywhere.</h3>
                     <p className="text-[#333] text-[1.2rem] mb-10">One platform that lets you sell wherever your customers are — online, in‑person, anywhere in the world, and everywhere in‑between.</p>
@@ -94,8 +94,6 @@ const PaymentTypes = () => {
                         </div>
 
                     </div>
-
-
                     
                 </div>
 

@@ -7,7 +7,7 @@ const Nav = () => {
     return (
         <nav className="flex justify-between items-center w-[100%]">
             <div className="w-[150px]">
-                <Image src={logo} className="" />
+                <Image src={logo} alt="Flutterwave Logo" />
             </div>
             <ul className="m-0 p-0 flex gap-10 text-md items-center">
                 <li className="flex gap-3 items-center"> 

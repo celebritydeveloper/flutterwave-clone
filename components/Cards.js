@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import { CheckIcon } from "@heroicons/react/solid";
 
 const Cards = () => {
     return(

@@ -32,12 +32,12 @@ const Header = () => {
 
                 <div className="col-span-2 justify-self-end">
                     <div className="grid grid-cols-2 gap-5">
-                        <Image src={max} height={120} width={200} className="" />
-                        <Image src={samke} className="" />
+                        <Image src={max} alt="maxng Logo" height={120} width={200} className="" />
+                        <Image src={samke} alt="Samke" className="" />
                     </div>
                     <div className="grid grid-cols-2 gap-5">
-                        <Image src={krispy} />
-                        <Image src={hygeia}  className="rounded-md object-cover" />
+                        <Image src={krispy} alt="Krispy Logo" />
+                        <Image src={hygeia} alt="Hygeia Logo"  className="rounded-md object-cover" />
                     </div>
                 </div>
             </div>

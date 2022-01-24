@@ -1,13 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import pos from "../assets/images/pos.jpg";
-import { CheckIcon } from "@heroicons/react/solid";
 
 const Security = () => {
     return(
         <section className="bg-[#f4f6f8] px-[4rem] py-[6.5rem]">
             <div className="grid grid-cols-2 gap-12">
-                <Image src={pos} className="rounded-md" />
+                <Image src={pos} className="rounded-md" alt="POS" />
                 <div className="justify-self-center pl-12">
                     <h3 className="font-semibold text-[2.6rem] mb-5 pr-10">Safety and security guaranteed.</h3>
                     <p className="text-[#333] text-[1.2rem] mb-10">At Flutterwave, we take security seriously so every payment made on our platform is 100% secure, even exceeding industry standard.</p>
