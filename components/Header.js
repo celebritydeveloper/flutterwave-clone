@@ -20,12 +20,12 @@ const Header = () => {
                     
                     <div className="flex gap-3 mt-8">
                         <button className="flex gap-5 shadow-md items-center bg-[#f5a623] rounded-[4px] px-4 py-4 uppercase text-sm  ">
-                            <span>Create account</span>
-                            <ChevronRightIcon className="h-5 w-5" />
+                            <span className="text-white">Create account</span>
+                            <ChevronRightIcon className="h-5 w-5 text-white" />
                         </button>
                         <button className="flex gap-5 shadow-md items-center bg-[#ffffff] rounded-[4px] px-4 py-4 uppercase text-sm">
-                            <span>Speak with us</span>
-                            <ChevronRightIcon className="h-5 w-5" />
+                            <span className="text-white">Speak with us</span>
+                            <ChevronRightIcon className="h-5 w-5 text-white" />
                         </button>
                     </div>
                 </div>
