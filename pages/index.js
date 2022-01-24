@@ -6,6 +6,7 @@ import Cards from '../components/Cards';
 import styles from '../styles/Home.module.css'
 import Security from '../components/Security';
 import Brands from '../components/Brands';
+import Action from '../components/Action';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Cards />
         <Security />
         <Brands />
+        <Action />
       </main>
     </div>
   );

@@ -22,6 +22,7 @@ a {
 
 .brand-container{
   position:relative;
+  height: 550px;
   width:100%;
   overflow-y: hidden;
 }
