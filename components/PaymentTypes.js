@@ -11,7 +11,7 @@ const PaymentTypes = () => {
                 <Image src={pos} className="rounded-md" alt="POS" />
                 <div className="justify-self-center pl-12">
                     <h3 className="font-semibold text-[2.6rem] mb-5 pr-10">Accept payments anywhere.</h3>
-                    <p className="text-[#333] text-[1.2rem] mb-10">One platform that lets you sell wherever your customers are — online, in‑person, anywhere in the world, and everywhere in‑between.</p>
+                    <p className="text-[#333] text-[1.2rem] mb-10">One platform that lets you sell wherever your customers are — online, in&apos;person, anywhere in the world, and everywhere in&apos;between.</p>
 
                     <div className="flex justify-between gap-10 mb-8">
                         <div>
