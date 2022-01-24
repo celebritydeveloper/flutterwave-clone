@@ -5,7 +5,7 @@ import { CheckIcon } from "@heroicons/react/solid";
 
 const PaymentTypes = () => {
     return(
-        <section className="bg-[f4f6f8] px-[4rem] py-12">
+        <section className="bg-[#f4f6f8] px-[4rem] py-[6.5rem]">
             <h2 className="text-[#0f1c70] text-center text-[2rem] font-semibold mb-[4rem]">Create seamless payment <br></br> experiences for your customers.</h2>
             <div className="grid grid-cols-2 gap-12">
                 <Image src={pos} className="rounded-md" />
@@ -24,7 +24,7 @@ const PaymentTypes = () => {
                         </div>
                     </div>
 
-                    <div className="mb-7">
+                    <div className="mb-9">
                         <h4 className="mb-3 text-lg text-[#0f1c70] font-semibold">Reach more people with more payment methods</h4>
                         <p className="text-[#333]">With little to no effort, remove the boundaries to scaling your business and reach more customers with just one platform.</p>
                     </div>
