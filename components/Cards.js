@@ -29,7 +29,7 @@ const Cards = () => {
 
                 <source src="../assets/images/cards.mp4" type="video/mp4" />
 
-                Sorry, your browser doesn't support embedded videos.
+                Sorry, your browser doesnt support embedded videos.
             </video>
                 
 
