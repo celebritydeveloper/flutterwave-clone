@@ -24,8 +24,8 @@ const Header = () => {
                             <ChevronRightIcon className="h-5 w-5 text-white" />
                         </button>
                         <button className="flex gap-5 shadow-md items-center bg-[#ffffff] rounded-[4px] px-4 py-4 uppercase text-sm">
-                            <span className="text-white">Speak with us</span>
-                            <ChevronRightIcon className="h-5 w-5 text-white" />
+                            <span className="">Speak with us</span>
+                            <ChevronRightIcon className="h-5 w-5 " />
                         </button>
                     </div>
                 </div>
